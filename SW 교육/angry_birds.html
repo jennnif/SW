@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Angry Birds</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.19.0/matter.min.js"></script>
+</head>
+<body>
+  <main style="display:flex; flex-direction:column; align-items:center; position:relative;">
+    <div style="position:relative;">
+      <canvas id="gameCanvas" width="800" height="400" style="background:#b3e0ff; border-radius:16px; box-shadow:0 4px 24px #0002;"></canvas>
+      <div id="overlay" style="position:absolute; left:0; top:0; width:800px; height:400px; pointer-events:none; display:none; flex-direction:column; align-items:center; justify-content:center; font-size:2.5rem; color:#fff; text-shadow:2px 2px 8px #222; font-weight:bold;"></div>
+    </div>
+  </main>
+  <script src="angry_birds.js"></script>
+</body>
+</html> 
